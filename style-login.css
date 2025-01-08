@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0pxx;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing:border-box;
+}
+body{
+    background: url(background.jpg) center center fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border:1px solid rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 0px;
+}
+.list{
+    display: flex;
+    list-style: none; 
+    margin-right: 25%;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+}
+.list li{
+    font-size: 20px; 
+    color:black;
+    cursor: pointer;
+    margin-right: 30px;
+    list-style: none;
+    list-style-type: none; 
+    text-decoration: none;
+}
+.list li a{
+    list-style-type: none; 
+    text-decoration: none;
+}
+.list li:hover{
+    transform: scale(1.05);
+}
+.list li a:hover{
+    color: red;
+}
+.list li:active
+{
+    transform: scale(0.95);
+}
+.icons{
+    display: flex;
+    align-items: center; 
+}
+.icons li{
+    list-style: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.icons li a{
+    list-style-type:none;
+    text-decoration: none;
+}
+.icons li:hover{
+    transform: scale(1.05);
+}
+.icons li a:hover{
+    color: red;
+}
+.icons li:active
+{
+    transform: scale(0.95);
+}
+.search{
+    position:center;
+    color:black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 140px;
+}
+.content{
+    margin-top:65px;
+    margin-left: 50px;
+    color:black;
+}
+.content h1{
+    font-size:50px;
+}
+button{
+    padding:10px 28px;
+    margin-left:180px;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.5);
+    cursor:pointer;
+}
+.form{
+    width:350px;
+    height:350px;
+    position:absolute;
+    top:18%;
+    left:73%;
+    background:rgba(255, 255, 255, 0.5);
+}
+.form::placeholder{
+    color: grey;
+}
+.box input{
+    width:75%;
+    margin:10px;
+    margin-top: 18px;
+    margin-left:45px;
+    padding:13px;
+    background:transparent;
+    border-bottom:1px solid black;
+}
+.link{
+    width:75%;
+    text-align:center;
+    color:black;
+    background-color:grey;
+    margin-top:15px;
+    margin-left:45px;
+    padding:11px;
+    border-radius:7px;
+}
+.link a{
+    text-decoration:none;
+    color:black;
+}
+
+.link2 a{
+    text-decoration:none;
+    color:black;
+}
+
+.link2{
+    width: 50%;
+    margin:23%;
+    text-align:center;
+    margin-top:40px;
+    margin-left:90px;
+    color:black;
+    background-color:grey;
+    padding:10px;
+    border-radius:7px;
+}
+
+footer{
+    margin:0;
+    padding: 0;
+    margin-top: 255px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color:black;
+    border:1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+}

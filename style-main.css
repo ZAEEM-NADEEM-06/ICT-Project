@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    color:black;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter Tight", serif;
+}
+nav{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border:1px solid rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 0px;
+}
+.list{
+    display: flex;
+    list-style: none; 
+    margin-right: 25%;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+}
+.list li{
+    font-size: 20px; 
+    color:black;
+    cursor: pointer;
+    margin-right: 30px;
+    list-style: none;
+    list-style-type: none; 
+    text-decoration: none;
+}
+.list li a{
+    list-style-type: none; 
+    text-decoration: none;
+}
+.list li:hover{
+    transform: scale(1.05);
+}
+.list li a:hover{
+    color: red;
+}
+.list li:active
+{
+    transform: scale(0.95);
+}
+.icons{
+    display: flex;
+    align-items: center; 
+}
+.icons li{
+    list-style: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.icons li a{
+    list-style-type:none;
+    text-decoration: none;
+}
+.icons li:hover{
+    transform: scale(1.05);
+}
+.icons li a:hover{
+    color: red;
+}
+.icons li:active
+{
+    transform: scale(0.95);
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content-left{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.content-left h5{
+    margin-bottom: 20px;
+    margin-left: 20%;
+    text-transform: capitalize;
+}
+.content-left h1{
+    margin-bottom: 0%;
+    margin-left: 20%;
+}
+.content-left p{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20%;
+    text-transform: capitalize;
+}
+.content-left button{
+    margin-top: 35px;
+    margin-left: 20%;
+    text-transform: capitalize;
+}
+.content-right{
+    margin-top: 60px;
+    margin-right: 20px;
+    display: flex;
+    gap:20px;
+}
+.zehran,.zaeem,.zain{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    text-align: center;
+}
+.zehran:hover,.zaeem:hover,.zain:hover{
+    transform: scale(1.05);
+     cursor: pointer;
+}
+.content-left button{
+    font-size: 15px;
+    margin-top: 35px;
+    margin-left: 20%;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    padding:15px
+}
+.content-left button:hover{
+    transform:scale(0.95);
+    cursor: pointer;
+}
+.content-left button:active{
+    transform:scale(0.95);
+    cursor: pointer;
+}
+main{
+    margin-top: 90px;
+    text-align: center;
+}
+.next{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    gap:20px
+}
+.description{
+    margin-top: 50px;
+}
+.description h2{
+    text-align: left;
+    font-size: 150%;
+    margin-left: 20px;
+}
+.description p{
+    font-size: 150%;
+}
+.ronaldo{
+    margin-top: 50px;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    color:black;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}

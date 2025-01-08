@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    color:black;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter Tight", serif;
+}
+nav{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border:1px solid rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 0px;
+}
+.list{
+    display: flex;
+    list-style: none; 
+    margin-right: 25%;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+}
+.list li{
+    font-size: 20px; 
+    color:black;
+    cursor: pointer;
+    margin-right: 30px;
+    list-style: none;
+    list-style-type: none; 
+    text-decoration: none;
+}
+.list li a{
+    list-style-type: none; 
+    text-decoration: none;
+}
+.list li:hover{
+    transform: scale(1.05);
+}
+.list li a:hover{
+    color: red;
+}
+.list li:active
+{
+    transform: scale(0.95);
+}
+.icons{
+    display: flex;
+    align-items: center; 
+}
+.icons li{
+    list-style: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.icons li a{
+    list-style-type:none;
+    text-decoration: none;
+}
+.icons li:hover{
+    transform: scale(1.05);
+}
+.icons li a:hover{
+    color: red;
+}
+.icons li:active
+{
+    transform: scale(0.95);
+}
+.next
+{
+    margin-top: 20px;
+    text-align: center;
+    padding: 35px;
+    margin-bottom: 20px;
+}
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    text-align: left; 
+    margin: 20px auto; 
+    padding: 20px; 
+    max-width: 80%; 
+    background-color:white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    border-radius: 8px; 
+}
+.main h3
+{
+   font-size: 28px;
+}
+.main form
+{
+    padding:30px;
+}
+button{
+    margin-left: 50px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+.main p
+{
+    padding: 20px;
+    text-align: center;
+}
+footer{
+    margin-top: 83px;
+    text-align: center;
+    background-color: white;
+    color:black;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
